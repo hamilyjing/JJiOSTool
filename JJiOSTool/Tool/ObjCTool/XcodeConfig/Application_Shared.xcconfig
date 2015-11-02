@@ -1,0 +1,119 @@
+//// Holds the common settings found in Application.xcconfig & Application_Integration.xxconfig.
+//// Application_Integration.xxconfig supports the Continuous Integration build. When building with CI
+//// there is no need to run fetchDependencies.py as all the code is checked out.
+//// As such Application_Integration.xxconfig corrects the search paths. i.e. It does not expect a
+//// dependencies sub-folder.
+//
+//PRODUCT_NAME = clientUI
+//
+//IPHONEOS_DEPLOYMENT_TARGET = 6.0
+//
+//GCC_PREFIX_HEADER = clientUI/clientUI-Prefix.pch
+//SYMROOT = ../../../../build
+//
+//// FIXME: Move from ldap_simple_* to ldap_sasl_* and turn off LDAP_DEPRECATED
+//GCC_PREPROCESSOR_DEFINITIONS = $(inherited) LDAP_DEPRECATED NO_WEBEX_TRACE USE_TR1_SMART_PTR
+//
+//GCC_WARN_NON_VIRTUAL_DESTRUCTOR = NO
+//GCC_WARN_SIGN_COMPARE = NO
+//
+///////////////////////////
+//// Head File Search Path
+//
+//platform = iPhoneUniversal3.0
+//thirdparty = $(SRCROOT)/../../../osx/3rdparty
+//gloox = $(thirdparty)/gloox-1.0/$(platform)
+//minizip = $(thirdparty)/minizip-1.01e/$(platform)
+//commonui=$(SRCROOT)/../../../osx/common-ui
+//common=$(SRCROOT)/../../../common
+//commoncore=$(SRCROOT)/../../../osx/common-core
+//iconnect = $(SRCROOT)/../../../osx/iconnect
+//
+//gst = $(common)/ecc/cpve/include/taf/gstreamer-0.10 $(common)/ecc/cpve/include/taf/taf $(common)/ecc/cpve/include/taf/taf-2.0 $(common)/ecc/cpve/include/taf/cxybase-2.0 $(common)/ecc/cpve/include/taf/glib-2.0 $(common)/ecc/cpve/include/taf/pme $(common)/ecc/cpve/include/taf/pme-2.0
+//
+//dependencies = $(SRCROOT)/../../../jcf/dependencies
+//
+//vendors = $(SRCROOT)/../../../../vendors
+//
+//
+//csflogger = $(dependencies)/csflogger/include/csf/logger/ $(dependencies)/csflogger/include
+//
+//jabberwerxcpp_include = $(dependencies)/jabberwerxcpp/include
+//
+//all_jabberwerxcpp_headers = $(jabberwerxcpp_include) $(jabberwerxcpp_include)/apcom $(jabberwerxcpp_include)/apXml $(jabberwerxcpp_include)/at_utils $(jabberwerxcpp_include)/conhelp $(jabberwerxcpp_include)/H $(jabberwerxcpp_include)/include $(jabberwerxcpp_include)/LoginMgr
+//
+//
+//legacy_headerfile_search_path = $(dependencies)/enhanced-callcontrol/ios/include/callcontrol $(dependencies)/enhanced-callcontrol/ios/include $(dependencies)/libxml2/include
+////boost
+//boost = $(dependencies)/boost
+//
+//
+//csfnetutils_include = $(dependencies)/csfnetutils/include
+//// configservice
+//configservice_objc = $(dependencies)/configservice/wrappers/objective-c
+//configservice_api = $(dependencies)/configservice/api
+//
+//// contactservice
+//contactservice_objc = $(dependencies)/contactservice/wrappers/objective-c
+//contactservice_api = $(dependencies)/contactservice/api
+//
+//// jcfscripts
+//ServiceFactory = $(dependencies)/jcfscripts/shoggoth/ObjCBodyTemplates/static/ServiceFactory
+//
+//// servicesframework
+//servicesframework_api = $(dependencies)/servicesframework/api
+//servicesframework_include = $(dependencies)/servicesframework/include
+//servicesframework_objc = $(dependencies)/servicesframework/wrappers/objective-c
+//
+//// systemservice
+//systemservice_objc = $(dependencies)/systemservice/wrappers/objective-c
+//systemservice_api = $(dependencies)/systemservice/api
+//
+//// systemmonitorservice
+//systemmonitorservice_objc = $(dependencies)/systemmonitorservice/wrappers/objective-c
+//systemmonitorservice_api = $(dependencies)/systemmonitorservice/api
+//
+//// telephonyservice
+//telephonyservice_objc = $(dependencies)/telephonyservice/wrappers/objective-c
+//telephonyservice_api = $(dependencies)/telephonyservice/api
+//
+//// mediadeviceservice
+//mediadeviceservice_objc = $(dependencies)/mediadeviceservice/wrappers/objective-c
+//mediadeviceservice_api = $(dependencies)/mediadeviceservice/api
+//
+//// impresenceservice
+//impresenceservice_objc = $(dependencies)/impresenceservices/wrappers/objective-c
+//impresenceservice_api = $(dependencies)/impresenceservices/api
+//
+//// voicemailservice
+//voicemailservice_objc = $(dependencies)/voicemailservice/wrappers/objective-c
+//voicemailservice_api = $(dependencies)/voicemailservice/api
+//
+//communicationhistoryservice_objc = $(dependencies)/communicationhistoryservice/wrappers/objective-c
+//communicationhistoryservice_api = $(dependencies)/communicationhistoryservice/api
+//
+//csf2g_person_include = $(dependencies)/csf2g-person/include
+//csf2g_foundation_deprecated = $(dependencies)/csf2g-foundation/include/deprecated
+//csf2g_foundation_portability = $(dependencies)/csf2g-foundation/include/portability
+//contactservice_include = $(dependencies)/contactservice/include
+//csfnetutils_include = $(dependencies)/csfnetutils/include
+////ciscossl
+//ciscossl_header = $(dependencies)/ciscossl/ios/arm/include
+//
+////curl
+//curl_header = $(dependencies)/libcurl/include
+//curl_ios_header = $(dependencies)/libcurl/ios/include
+//
+////servicelocator
+//servicelocator = $(dependencies)/CSFUcSrvLoc/include
+//
+////plcrashreportor
+//plcrashreportor = $(vendors)/common/plcrashreporter/Source
+//
+////jcfcoreutils
+//jcfcoreutils = $(dependencies)/jcfcoreutils/include
+//
+//jcf_headerfile_search_path = $(inherited) $(configservice_objc) $(configservice_api) $(ServiceFactory) $(servicesframework_api) $(servicesframework_include) $(servicesframework_objc) $(systemservice_objc) $(systemservice_api) $(systemmonitorservice_objc) $(systemmonitorservice_api) $(telephonyservice_objc) $(telephonyservice_api) $(impresenceservice_objc) $(impresenceservice_api) $(contactservice_objc) $(contactservice_api) $(voicemailservice_objc) $(voicemailservice_api) $(communicationhistoryservice_objc) $(communicationhistoryservice_api) $(servicelocator) $(csf2g_person_include) $(csf2g_foundation_deprecated) $(csf2g_foundation_portability) $(contactservice_include) $(mediadeviceservice_objc) $(mediadeviceservice_api) $(ciscossl_header) $(curl_header) $(curl_ios_header) $(jcfcoreutils) $(csfnetutils_include)
+//
+//HEADER_SEARCH_PATHS = $(inherited) $(iconnect) $(gloox)/include $(openldap)/include $(minizip)/include   $(commoncore) $(commoncore)/CSITrampolines $(commoncore)/CSISortedArray $(commonui)/CSIImage $(commoncore)/CSIWapiClient $(commoncore)/CSIUserDefaults $(commoncore)/CSIUserDefaults $(commoncore)/CSIError $(commoncore)/CSIAnalytics $(commoncore)/CSILog $(commoncore)/CSIExtensions $(commoncore)/CSIXMPP $(commoncore)/CSIXMPPSoundManager $(common) $(vendors)/common $(common)/H $(gst) $(boost) $(jcf_headerfile_search_path) $(legacy_headerfile_search_path) $(csflogger) $(common)/meuxAgent/include $(all_jabberwerxcpp_headers) $(plcrashreportor)
+//

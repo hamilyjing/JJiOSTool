@@ -1,0 +1,37 @@
+//#include "Shared.xcconfig"
+//
+//GCC_PREPROCESSOR_DEFINITIONS = CSI_DEBUG DEBUG
+//
+////ONLY_ACTIVE_ARCH = YES				// Don't build universal
+//GCC_OPTIMIZATION_LEVEL = 0			// Don't optimize
+//COPY_PHASE_STRIP = NO				// Don't strip if we install (we don't usually)
+//GCC_ENABLE_FIX_AND_CONTINUE = YES
+//GCC_GENERATE_DEBUGGING_SYMBOLS = YES
+//
+//DEBUG_INFORMATION_FORMAT = dwarf
+//
+//VALIDATE_PRODUCT = NO
+//
+//GCC_GENERATE_TEST_COVERAGE_FILES = YES
+//GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES
+//
+//JCF_LIB_FOLDER_NAME[sdk=iphonesimulator5.1] = iossimulator-5.1-dbg
+//JCF_LIB_FOLDER_NAME[sdk=iphonesimulator6.0] = iossimulator-6.0-dbg
+//JCF_LIB_FOLDER_NAME[sdk=iphonesimulator6.1] = iossimulator-6.1-dbg
+//JCF_LIB_FOLDER_NAME[sdk=iphonesimulator7.0] = iossimulator-7.0-dbg
+//
+//JCF_LIB_FOLDER_NAME[sdk=iphoneos5.1][arch=*] = ios-5.1-dbg
+//JCF_LIB_FOLDER_NAME[sdk=iphoneos6.0][arch=*] = ios-6.0-dbg
+//JCF_LIB_FOLDER_NAME[sdk=iphoneos6.1][arch=*] = ios-6.1-dbg
+//JCF_LIB_FOLDER_NAME[sdk=iphoneos7.0][arch=*] = ios-7.0-dbg
+//
+//
+//PLCRASHREPORTER_LIB_FOLDER_NAME[sdk=iphonesimulator5.1] = iossimulator-5.1-dbg
+//PLCRASHREPORTER_LIB_FOLDER_NAME[sdk=iphonesimulator6.0] = iossimulator-6.0-dbg
+//PLCRASHREPORTER_LIB_FOLDER_NAME[sdk=iphonesimulator6.1] = iossimulator-6.1-dbg
+//PLCRASHREPORTER_LIB_FOLDER_NAME[sdk=iphonesimulator7.0] = iossimulator-7.0-dbg
+//
+//PLCRASHREPORTER_LIB_FOLDER_NAME[sdk=iphoneos5.1][arch=*] = ios-5.1-dbg
+//PLCRASHREPORTER_LIB_FOLDER_NAME[sdk=iphoneos6.0][arch=*] = ios-6.0-dbg
+//PLCRASHREPORTER_LIB_FOLDER_NAME[sdk=iphoneos6.1][arch=*] = ios-6.1-dbg
+//PLCRASHREPORTER_LIB_FOLDER_NAME[sdk=iphoneos7.0][arch=*] = ios-7.0-dbg
