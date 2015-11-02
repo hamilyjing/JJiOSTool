@@ -15,6 +15,34 @@
 		287BE2A81BE703650039FF2E /* MKNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE1751BE703640039FF2E /* MKNetworkEngine.m */; };
 		287BE2A91BE703650039FF2E /* MKNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE1781BE703640039FF2E /* MKNetworkOperation.m */; };
 		287BE2AA1BE703650039FF2E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE17B1BE703640039FF2E /* Reachability.m */; };
+		287BE3311BE708D10039FF2E /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE31A1BE708D10039FF2E /* JSONModel.m */; };
+		287BE3321BE708D10039FF2E /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE31C1BE708D10039FF2E /* JSONModelArray.m */; };
+		287BE3331BE708D10039FF2E /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE31E1BE708D10039FF2E /* JSONModelClassProperty.m */; };
+		287BE3341BE708D10039FF2E /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE3201BE708D10039FF2E /* JSONModelError.m */; };
+		287BE3351BE708D10039FF2E /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE3231BE708D10039FF2E /* NSArray+JSONModel.m */; };
+		287BE3361BE708D10039FF2E /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE3271BE708D10039FF2E /* JSONAPI.m */; };
+		287BE3371BE708D10039FF2E /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE3291BE708D10039FF2E /* JSONHTTPClient.m */; };
+		287BE3381BE708D10039FF2E /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE32B1BE708D10039FF2E /* JSONModel+networking.m */; };
+		287BE3391BE708D10039FF2E /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE32E1BE708D10039FF2E /* JSONKeyMapper.m */; };
+		287BE33A1BE708D10039FF2E /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE3301BE708D10039FF2E /* JSONValueTransformer.m */; };
+		287BE3681BE709EC0039FF2E /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE3451BE709EC0039FF2E /* EXTRuntimeExtensions.m */; };
+		287BE3691BE709EC0039FF2E /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE3471BE709EC0039FF2E /* EXTScope.m */; };
+		287BE36A1BE709EC0039FF2E /* MTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE34B1BE709EC0039FF2E /* MTLJSONAdapter.m */; };
+		287BE36B1BE709EC0039FF2E /* MTLModel+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE34D1BE709EC0039FF2E /* MTLModel+NSCoding.m */; };
+		287BE36C1BE709EC0039FF2E /* MTLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE34F1BE709EC0039FF2E /* MTLModel.m */; };
+		287BE36D1BE709EC0039FF2E /* MTLReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE3511BE709EC0039FF2E /* MTLReflection.m */; };
+		287BE36E1BE709EC0039FF2E /* MTLTransformerErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE3531BE709EC0039FF2E /* MTLTransformerErrorHandling.m */; };
+		287BE36F1BE709EC0039FF2E /* MTLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE3551BE709EC0039FF2E /* MTLValueTransformer.m */; };
+		287BE3701BE709EC0039FF2E /* NSArray+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE3571BE709EC0039FF2E /* NSArray+MTLManipulationAdditions.m */; };
+		287BE3711BE709EC0039FF2E /* NSDictionary+MTLJSONKeyPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE3591BE709EC0039FF2E /* NSDictionary+MTLJSONKeyPath.m */; };
+		287BE3721BE709EC0039FF2E /* NSDictionary+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE35B1BE709EC0039FF2E /* NSDictionary+MTLManipulationAdditions.m */; };
+		287BE3731BE709EC0039FF2E /* NSDictionary+MTLMappingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE35D1BE709EC0039FF2E /* NSDictionary+MTLMappingAdditions.m */; };
+		287BE3741BE709EC0039FF2E /* NSError+MTLModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE35F1BE709EC0039FF2E /* NSError+MTLModelException.m */; };
+		287BE3751BE709EC0039FF2E /* NSObject+MTLComparisonAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE3611BE709EC0039FF2E /* NSObject+MTLComparisonAdditions.m */; };
+		287BE3761BE709EC0039FF2E /* NSValueTransformer+MTLInversionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE3631BE709EC0039FF2E /* NSValueTransformer+MTLInversionAdditions.m */; };
+		287BE3771BE709EC0039FF2E /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE3651BE709EC0039FF2E /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */; };
+		287BE3841BE70C300039FF2E /* JJMantleTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 287BE3801BE70C300039FF2E /* JJMantleTest.json */; };
+		287BE3851BE70CAC0039FF2E /* JJMantle+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 287BE37F1BE70C300039FF2E /* JJMantle+Test.m */; };
 		28FD468D1BE6F285007C536B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FD468C1BE6F285007C536B /* AppDelegate.swift */; };
 		28FD468F1BE6F285007C536B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FD468E1BE6F285007C536B /* ViewController.swift */; };
 		28FD46921BE6F285007C536B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FD46901BE6F285007C536B /* Main.storyboard */; };
@@ -86,6 +114,66 @@
 		287BE17A1BE703640039FF2E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		287BE17B1BE703640039FF2E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		287BE30B1BE703EB0039FF2E /* JJiOSTool-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JJiOSTool-Prefix.pch"; sourceTree = "<group>"; };
+		287BE3191BE708D10039FF2E /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		287BE31A1BE708D10039FF2E /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		287BE31B1BE708D10039FF2E /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		287BE31C1BE708D10039FF2E /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		287BE31D1BE708D10039FF2E /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		287BE31E1BE708D10039FF2E /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		287BE31F1BE708D10039FF2E /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		287BE3201BE708D10039FF2E /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		287BE3221BE708D10039FF2E /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		287BE3231BE708D10039FF2E /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		287BE3241BE708D10039FF2E /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		287BE3261BE708D10039FF2E /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		287BE3271BE708D10039FF2E /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		287BE3281BE708D10039FF2E /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		287BE3291BE708D10039FF2E /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		287BE32A1BE708D10039FF2E /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		287BE32B1BE708D10039FF2E /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		287BE32D1BE708D10039FF2E /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		287BE32E1BE708D10039FF2E /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		287BE32F1BE708D10039FF2E /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		287BE3301BE708D10039FF2E /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		287BE33F1BE709EC0039FF2E /* JJMantleHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJMantleHeader.h; sourceTree = "<group>"; };
+		287BE3431BE709EC0039FF2E /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		287BE3441BE709EC0039FF2E /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		287BE3451BE709EC0039FF2E /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		287BE3461BE709EC0039FF2E /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
+		287BE3471BE709EC0039FF2E /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
+		287BE3481BE709EC0039FF2E /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		287BE3491BE709EC0039FF2E /* Mantle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mantle.h; sourceTree = "<group>"; };
+		287BE34A1BE709EC0039FF2E /* MTLJSONAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLJSONAdapter.h; sourceTree = "<group>"; };
+		287BE34B1BE709EC0039FF2E /* MTLJSONAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLJSONAdapter.m; sourceTree = "<group>"; };
+		287BE34C1BE709EC0039FF2E /* MTLModel+NSCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTLModel+NSCoding.h"; sourceTree = "<group>"; };
+		287BE34D1BE709EC0039FF2E /* MTLModel+NSCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MTLModel+NSCoding.m"; sourceTree = "<group>"; };
+		287BE34E1BE709EC0039FF2E /* MTLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLModel.h; sourceTree = "<group>"; };
+		287BE34F1BE709EC0039FF2E /* MTLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLModel.m; sourceTree = "<group>"; };
+		287BE3501BE709EC0039FF2E /* MTLReflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLReflection.h; sourceTree = "<group>"; };
+		287BE3511BE709EC0039FF2E /* MTLReflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLReflection.m; sourceTree = "<group>"; };
+		287BE3521BE709EC0039FF2E /* MTLTransformerErrorHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLTransformerErrorHandling.h; sourceTree = "<group>"; };
+		287BE3531BE709EC0039FF2E /* MTLTransformerErrorHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLTransformerErrorHandling.m; sourceTree = "<group>"; };
+		287BE3541BE709EC0039FF2E /* MTLValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLValueTransformer.h; sourceTree = "<group>"; };
+		287BE3551BE709EC0039FF2E /* MTLValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLValueTransformer.m; sourceTree = "<group>"; };
+		287BE3561BE709EC0039FF2E /* NSArray+MTLManipulationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		287BE3571BE709EC0039FF2E /* NSArray+MTLManipulationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		287BE3581BE709EC0039FF2E /* NSDictionary+MTLJSONKeyPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MTLJSONKeyPath.h"; sourceTree = "<group>"; };
+		287BE3591BE709EC0039FF2E /* NSDictionary+MTLJSONKeyPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MTLJSONKeyPath.m"; sourceTree = "<group>"; };
+		287BE35A1BE709EC0039FF2E /* NSDictionary+MTLManipulationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		287BE35B1BE709EC0039FF2E /* NSDictionary+MTLManipulationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		287BE35C1BE709EC0039FF2E /* NSDictionary+MTLMappingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MTLMappingAdditions.h"; sourceTree = "<group>"; };
+		287BE35D1BE709EC0039FF2E /* NSDictionary+MTLMappingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MTLMappingAdditions.m"; sourceTree = "<group>"; };
+		287BE35E1BE709EC0039FF2E /* NSError+MTLModelException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+MTLModelException.h"; sourceTree = "<group>"; };
+		287BE35F1BE709EC0039FF2E /* NSError+MTLModelException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+MTLModelException.m"; sourceTree = "<group>"; };
+		287BE3601BE709EC0039FF2E /* NSObject+MTLComparisonAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MTLComparisonAdditions.h"; sourceTree = "<group>"; };
+		287BE3611BE709EC0039FF2E /* NSObject+MTLComparisonAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MTLComparisonAdditions.m"; sourceTree = "<group>"; };
+		287BE3621BE709EC0039FF2E /* NSValueTransformer+MTLInversionAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValueTransformer+MTLInversionAdditions.h"; sourceTree = "<group>"; };
+		287BE3631BE709EC0039FF2E /* NSValueTransformer+MTLInversionAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValueTransformer+MTLInversionAdditions.m"; sourceTree = "<group>"; };
+		287BE3641BE709EC0039FF2E /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValueTransformer+MTLPredefinedTransformerAdditions.h"; sourceTree = "<group>"; };
+		287BE3651BE709EC0039FF2E /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValueTransformer+MTLPredefinedTransformerAdditions.m"; sourceTree = "<group>"; };
+		287BE37E1BE70C300039FF2E /* JJMantle+Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JJMantle+Test.h"; sourceTree = "<group>"; };
+		287BE37F1BE70C300039FF2E /* JJMantle+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JJMantle+Test.m"; sourceTree = "<group>"; };
+		287BE3801BE70C300039FF2E /* JJMantleTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JJMantleTest.json; sourceTree = "<group>"; };
 		28FD46891BE6F285007C536B /* JJiOSTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJiOSTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FD468C1BE6F285007C536B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28FD468E1BE6F285007C536B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -182,6 +270,7 @@
 		287BE07C1BE703640039FF2E /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				287BE3151BE708D10039FF2E /* Model */,
 				287BE1651BE703640039FF2E /* Networking */,
 			);
 			path = Vendor;
@@ -251,6 +340,217 @@
 			path = Reachability;
 			sourceTree = "<group>";
 		};
+		287BE3151BE708D10039FF2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				287BE3161BE708D10039FF2E /* JSONModel */,
+				287BE33B1BE709EC0039FF2E /* Mantle */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		287BE3161BE708D10039FF2E /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				287BE3171BE708D10039FF2E /* JSONModel-1.1.2 */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		287BE3171BE708D10039FF2E /* JSONModel-1.1.2 */ = {
+			isa = PBXGroup;
+			children = (
+				287BE3181BE708D10039FF2E /* JSONModel */,
+				287BE3211BE708D10039FF2E /* JSONModelCategories */,
+				287BE3241BE708D10039FF2E /* JSONModelLib.h */,
+				287BE3251BE708D10039FF2E /* JSONModelNetworking */,
+				287BE32C1BE708D10039FF2E /* JSONModelTransformations */,
+			);
+			path = "JSONModel-1.1.2";
+			sourceTree = "<group>";
+		};
+		287BE3181BE708D10039FF2E /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				287BE3191BE708D10039FF2E /* JSONModel.h */,
+				287BE31A1BE708D10039FF2E /* JSONModel.m */,
+				287BE31B1BE708D10039FF2E /* JSONModelArray.h */,
+				287BE31C1BE708D10039FF2E /* JSONModelArray.m */,
+				287BE31D1BE708D10039FF2E /* JSONModelClassProperty.h */,
+				287BE31E1BE708D10039FF2E /* JSONModelClassProperty.m */,
+				287BE31F1BE708D10039FF2E /* JSONModelError.h */,
+				287BE3201BE708D10039FF2E /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		287BE3211BE708D10039FF2E /* JSONModelCategories */ = {
+			isa = PBXGroup;
+			children = (
+				287BE3221BE708D10039FF2E /* NSArray+JSONModel.h */,
+				287BE3231BE708D10039FF2E /* NSArray+JSONModel.m */,
+			);
+			path = JSONModelCategories;
+			sourceTree = "<group>";
+		};
+		287BE3251BE708D10039FF2E /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				287BE3261BE708D10039FF2E /* JSONAPI.h */,
+				287BE3271BE708D10039FF2E /* JSONAPI.m */,
+				287BE3281BE708D10039FF2E /* JSONHTTPClient.h */,
+				287BE3291BE708D10039FF2E /* JSONHTTPClient.m */,
+				287BE32A1BE708D10039FF2E /* JSONModel+networking.h */,
+				287BE32B1BE708D10039FF2E /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		287BE32C1BE708D10039FF2E /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				287BE32D1BE708D10039FF2E /* JSONKeyMapper.h */,
+				287BE32E1BE708D10039FF2E /* JSONKeyMapper.m */,
+				287BE32F1BE708D10039FF2E /* JSONValueTransformer.h */,
+				287BE3301BE708D10039FF2E /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		287BE33B1BE709EC0039FF2E /* Mantle */ = {
+			isa = PBXGroup;
+			children = (
+				287BE33C1BE709EC0039FF2E /* Helper */,
+				287BE3411BE709EC0039FF2E /* Mantle-2.0.5 */,
+			);
+			path = Mantle;
+			sourceTree = "<group>";
+		};
+		287BE33C1BE709EC0039FF2E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				287BE33F1BE709EC0039FF2E /* JJMantleHeader.h */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		287BE3411BE709EC0039FF2E /* Mantle-2.0.5 */ = {
+			isa = PBXGroup;
+			children = (
+				287BE3421BE709EC0039FF2E /* extobjc */,
+				287BE3491BE709EC0039FF2E /* Mantle.h */,
+				287BE34A1BE709EC0039FF2E /* MTLJSONAdapter.h */,
+				287BE34B1BE709EC0039FF2E /* MTLJSONAdapter.m */,
+				287BE34C1BE709EC0039FF2E /* MTLModel+NSCoding.h */,
+				287BE34D1BE709EC0039FF2E /* MTLModel+NSCoding.m */,
+				287BE34E1BE709EC0039FF2E /* MTLModel.h */,
+				287BE34F1BE709EC0039FF2E /* MTLModel.m */,
+				287BE3501BE709EC0039FF2E /* MTLReflection.h */,
+				287BE3511BE709EC0039FF2E /* MTLReflection.m */,
+				287BE3521BE709EC0039FF2E /* MTLTransformerErrorHandling.h */,
+				287BE3531BE709EC0039FF2E /* MTLTransformerErrorHandling.m */,
+				287BE3541BE709EC0039FF2E /* MTLValueTransformer.h */,
+				287BE3551BE709EC0039FF2E /* MTLValueTransformer.m */,
+				287BE3561BE709EC0039FF2E /* NSArray+MTLManipulationAdditions.h */,
+				287BE3571BE709EC0039FF2E /* NSArray+MTLManipulationAdditions.m */,
+				287BE3581BE709EC0039FF2E /* NSDictionary+MTLJSONKeyPath.h */,
+				287BE3591BE709EC0039FF2E /* NSDictionary+MTLJSONKeyPath.m */,
+				287BE35A1BE709EC0039FF2E /* NSDictionary+MTLManipulationAdditions.h */,
+				287BE35B1BE709EC0039FF2E /* NSDictionary+MTLManipulationAdditions.m */,
+				287BE35C1BE709EC0039FF2E /* NSDictionary+MTLMappingAdditions.h */,
+				287BE35D1BE709EC0039FF2E /* NSDictionary+MTLMappingAdditions.m */,
+				287BE35E1BE709EC0039FF2E /* NSError+MTLModelException.h */,
+				287BE35F1BE709EC0039FF2E /* NSError+MTLModelException.m */,
+				287BE3601BE709EC0039FF2E /* NSObject+MTLComparisonAdditions.h */,
+				287BE3611BE709EC0039FF2E /* NSObject+MTLComparisonAdditions.m */,
+				287BE3621BE709EC0039FF2E /* NSValueTransformer+MTLInversionAdditions.h */,
+				287BE3631BE709EC0039FF2E /* NSValueTransformer+MTLInversionAdditions.m */,
+				287BE3641BE709EC0039FF2E /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */,
+				287BE3651BE709EC0039FF2E /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */,
+			);
+			path = "Mantle-2.0.5";
+			sourceTree = "<group>";
+		};
+		287BE3421BE709EC0039FF2E /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+				287BE3431BE709EC0039FF2E /* EXTKeyPathCoding.h */,
+				287BE3441BE709EC0039FF2E /* EXTRuntimeExtensions.h */,
+				287BE3451BE709EC0039FF2E /* EXTRuntimeExtensions.m */,
+				287BE3461BE709EC0039FF2E /* EXTScope.h */,
+				287BE3471BE709EC0039FF2E /* EXTScope.m */,
+				287BE3481BE709EC0039FF2E /* metamacros.h */,
+			);
+			path = extobjc;
+			sourceTree = "<group>";
+		};
+		287BE3781BE70C300039FF2E /* ToolTest */ = {
+			isa = PBXGroup;
+			children = (
+				287BE3791BE70C300039FF2E /* ObjCTool */,
+			);
+			name = ToolTest;
+			path = JJiOSTool/ToolTest;
+			sourceTree = "<group>";
+		};
+		287BE3791BE70C300039FF2E /* ObjCTool */ = {
+			isa = PBXGroup;
+			children = (
+				287BE37A1BE70C300039FF2E /* Vendor */,
+			);
+			path = ObjCTool;
+			sourceTree = "<group>";
+		};
+		287BE37A1BE70C300039FF2E /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				287BE37B1BE70C300039FF2E /* Model */,
+				287BE3811BE70C300039FF2E /* Networking */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		287BE37B1BE70C300039FF2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				287BE37C1BE70C300039FF2E /* JSONModel */,
+				287BE37D1BE70C300039FF2E /* Mantle */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		287BE37C1BE70C300039FF2E /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		287BE37D1BE70C300039FF2E /* Mantle */ = {
+			isa = PBXGroup;
+			children = (
+				287BE37E1BE70C300039FF2E /* JJMantle+Test.h */,
+				287BE37F1BE70C300039FF2E /* JJMantle+Test.m */,
+				287BE3801BE70C300039FF2E /* JJMantleTest.json */,
+			);
+			path = Mantle;
+			sourceTree = "<group>";
+		};
+		287BE3811BE70C300039FF2E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				287BE3821BE70C300039FF2E /* MKNetworkKit */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		287BE3821BE70C300039FF2E /* MKNetworkKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MKNetworkKit;
+			sourceTree = "<group>";
+		};
 		28FD46801BE6F285007C536B = {
 			isa = PBXGroup;
 			children = (
@@ -260,6 +560,7 @@
 				28FD46AB1BE6F285007C536B /* JJiOSToolUITests */,
 				28FD468A1BE6F285007C536B /* Products */,
 				28FD46BA1BE6F7A5007C536B /* Tool */,
+				287BE3781BE70C300039FF2E /* ToolTest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -506,6 +807,7 @@
 			files = (
 				28FD46971BE6F285007C536B /* LaunchScreen.storyboard in Resources */,
 				28FD46941BE6F285007C536B /* Assets.xcassets in Resources */,
+				287BE3841BE70C300039FF2E /* JJMantleTest.json in Resources */,
 				28FD46921BE6F285007C536B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,17 +833,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287BE3691BE709EC0039FF2E /* EXTScope.m in Sources */,
+				287BE3371BE708D10039FF2E /* JSONHTTPClient.m in Sources */,
+				287BE3771BE709EC0039FF2E /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */,
+				287BE36B1BE709EC0039FF2E /* MTLModel+NSCoding.m in Sources */,
 				28FD46F51BE6F7A5007C536B /* NSDictionary+JJ.m in Sources */,
 				28FD46FD1BE6F7A5007C536B /* NSUserActivity+JJ.m in Sources */,
 				28FD46F21BE6F7A5007C536B /* NSArray+JJ.m in Sources */,
 				28FD47001BE6F7A5007C536B /* UIColor+JJ.m in Sources */,
 				28FD46F61BE6F7A5007C536B /* NSFileManager+JJ.m in Sources */,
 				28FD47031BE6F7A5007C536B /* UIImage+JJ.m in Sources */,
+				287BE3731BE709EC0039FF2E /* NSDictionary+MTLMappingAdditions.m in Sources */,
 				28FD47021BE6F7A5007C536B /* UIGestureRecognizer+JJ.m in Sources */,
 				287BE2A71BE703650039FF2E /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
 				28FD46F81BE6F7A5007C536B /* NSMutableArray+JJ.m in Sources */,
 				28FD46FB1BE6F7A5007C536B /* NSString+JJ.m in Sources */,
+				287BE3751BE709EC0039FF2E /* NSObject+MTLComparisonAdditions.m in Sources */,
 				287BE2A91BE703650039FF2E /* MKNetworkOperation.m in Sources */,
+				287BE36D1BE709EC0039FF2E /* MTLReflection.m in Sources */,
 				28FD47051BE6F7A5007C536B /* UIScrollView+JJ.m in Sources */,
 				28FD468F1BE6F285007C536B /* ViewController.swift in Sources */,
 				28FD46F01BE6F7A5007C536B /* CABasicAnimation+JJ.m in Sources */,
@@ -552,20 +861,40 @@
 				28FD46EF1BE6F7A5007C536B /* CAAnimation+JJ.m in Sources */,
 				287BE2AA1BE703650039FF2E /* Reachability.m in Sources */,
 				28FD46F91BE6F7A5007C536B /* NSMutableDictionary+JJ.m in Sources */,
+				287BE3331BE708D10039FF2E /* JSONModelClassProperty.m in Sources */,
 				28FD470F1BE6F88D007C536B /* NSData+JJ_Zip.m in Sources */,
 				28FD46F41BE6F7A5007C536B /* NSDate+JJ.m in Sources */,
+				287BE3721BE709EC0039FF2E /* NSDictionary+MTLManipulationAdditions.m in Sources */,
 				28FD46F31BE6F7A5007C536B /* NSData+JJ.m in Sources */,
+				287BE3391BE708D10039FF2E /* JSONKeyMapper.m in Sources */,
+				287BE36C1BE709EC0039FF2E /* MTLModel.m in Sources */,
+				287BE3361BE708D10039FF2E /* JSONAPI.m in Sources */,
 				28FD47061BE6F7A5007C536B /* UIView+JJ.m in Sources */,
 				287BE2A41BE703650039FF2E /* NSDate+RFC1123.m in Sources */,
 				28FD46FF1BE6F7A5007C536B /* UIApplication+JJ.m in Sources */,
+				287BE3851BE70CAC0039FF2E /* JJMantle+Test.m in Sources */,
+				287BE36F1BE709EC0039FF2E /* MTLValueTransformer.m in Sources */,
 				28FD46FE1BE6F7A5007C536B /* UIAlertController+JJ.m in Sources */,
+				287BE36E1BE709EC0039FF2E /* MTLTransformerErrorHandling.m in Sources */,
 				28FD468D1BE6F285007C536B /* AppDelegate.swift in Sources */,
+				287BE3711BE709EC0039FF2E /* NSDictionary+MTLJSONKeyPath.m in Sources */,
 				287BE2A61BE703650039FF2E /* NSString+MKNetworkKitAdditions.m in Sources */,
 				28FD47011BE6F7A5007C536B /* UIDevice+JJ.m in Sources */,
+				287BE3701BE709EC0039FF2E /* NSArray+MTLManipulationAdditions.m in Sources */,
 				28FD46F11BE6F7A5007C536B /* CSSearchableIndex+JJ.m in Sources */,
 				287BE2A51BE703650039FF2E /* NSDictionary+RequestEncoding.m in Sources */,
+				287BE3311BE708D10039FF2E /* JSONModel.m in Sources */,
+				287BE33A1BE708D10039FF2E /* JSONValueTransformer.m in Sources */,
+				287BE3381BE708D10039FF2E /* JSONModel+networking.m in Sources */,
 				28FD47041BE6F7A5007C536B /* UIImageView+JJ.m in Sources */,
+				287BE3681BE709EC0039FF2E /* EXTRuntimeExtensions.m in Sources */,
+				287BE3351BE708D10039FF2E /* NSArray+JSONModel.m in Sources */,
+				287BE3741BE709EC0039FF2E /* NSError+MTLModelException.m in Sources */,
+				287BE3341BE708D10039FF2E /* JSONModelError.m in Sources */,
+				287BE3761BE709EC0039FF2E /* NSValueTransformer+MTLInversionAdditions.m in Sources */,
 				28FD46FA1BE6F7A5007C536B /* NSObject+JJ.m in Sources */,
+				287BE36A1BE709EC0039FF2E /* MTLJSONAdapter.m in Sources */,
+				287BE3321BE708D10039FF2E /* JSONModelArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,10 +1036,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/JJiOSTool/Tool/ObjCTool/Vendor/Plcrashreporter/Plcrashreporter-1.2-iOS-Framework",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREFIX_HEADER = "JJiOSTool/JJiOSTool-Prefix.pch";
 				INFOPLIST_FILE = JJiOSTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -723,10 +1049,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/JJiOSTool/Tool/ObjCTool/Vendor/Plcrashreporter/Plcrashreporter-1.2-iOS-Framework",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREFIX_HEADER = "JJiOSTool/JJiOSTool-Prefix.pch";
 				INFOPLIST_FILE = JJiOSTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
