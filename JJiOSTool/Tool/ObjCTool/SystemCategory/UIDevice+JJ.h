@@ -62,7 +62,7 @@ typedef NS_ENUM(NSUInteger, JJHardware)
     IPAD_AIR_2_WIFI,
     IPAD_AIR_2_WIFI_CELLULAR,
     
-    SIMULATOR
+    IOS_SIMULATOR
 };
 
 @interface UIDevice (JJ)

@@ -168,11 +168,11 @@
     if ([hardware isEqualToString:@"iPad4,8"])      return IPAD_MINI_3_WIFI_CELLULAR;
     if ([hardware isEqualToString:@"iPad5,3"])      return IPAD_AIR_2_WIFI;
     if ([hardware isEqualToString:@"iPad5,4"])      return IPAD_AIR_2_WIFI_CELLULAR;
-    if ([hardware isEqualToString:@"i386"])         return SIMULATOR;
-    if ([hardware isEqualToString:@"x86_64"])       return SIMULATOR;
-    if ([hardware hasPrefix:@"iPhone"])             return SIMULATOR;
-    if ([hardware hasPrefix:@"iPod"])               return SIMULATOR;
-    if ([hardware hasPrefix:@"iPad"])               return SIMULATOR;
+    if ([hardware isEqualToString:@"i386"])         return IOS_SIMULATOR;
+    if ([hardware isEqualToString:@"x86_64"])       return IOS_SIMULATOR;
+    if ([hardware hasPrefix:@"iPhone"])             return IOS_SIMULATOR;
+    if ([hardware hasPrefix:@"iPod"])               return IOS_SIMULATOR;
+    if ([hardware hasPrefix:@"iPad"])               return IOS_SIMULATOR;
     
     return NOT_AVAILABLE;
 }
@@ -231,7 +231,7 @@
         case IPAD_MINI_RETINA_WIFI_CELLULAR_CN: return 4.8f;
             
             
-        case SIMULATOR:                         return 100.0f;
+        case IOS_SIMULATOR:                         return 100.0f;
         case NOT_AVAILABLE:                     return 200.0f;
     }
     return 200.0f; //Device is not available
@@ -295,8 +295,8 @@
     if ([hardware isEqualToString:@"iPad5,3"])      return @"iPad Air 2 (Wi-Fi)";
     if ([hardware isEqualToString:@"iPad5,4"])      return @"iPad Air 2 (Wi-Fi + Cellular)";
     
-    if ([hardware isEqualToString:@"i386"])         return @"Simulator";
-    if ([hardware isEqualToString:@"x86_64"])       return @"Simulator";
+    if ([hardware isEqualToString:@"i386"])         return @"iOS_Simulator";
+    if ([hardware isEqualToString:@"x86_64"])       return @"iOS_Simulator";
     if ([hardware hasPrefix:@"iPhone"])             return @"iPhone";
     if ([hardware hasPrefix:@"iPod"])               return @"iPod";
     if ([hardware hasPrefix:@"iPad"])               return @"iPad";
@@ -357,8 +357,8 @@
     if ([hardware isEqualToString:@"iPad5,3"])      return @"iPad Air 2";
     if ([hardware isEqualToString:@"iPad5,4"])      return @"iPad Air 2";
     
-    if ([hardware isEqualToString:@"i386"])         return @"Simulator";
-    if ([hardware isEqualToString:@"x86_64"])       return @"Simulator";
+    if ([hardware isEqualToString:@"i386"])         return @"iOS_Simulator";
+    if ([hardware isEqualToString:@"x86_64"])       return @"iOS_Simulator";
     if ([hardware hasPrefix:@"iPhone"])             return @"iPhone";
     if ([hardware hasPrefix:@"iPod"])               return @"iPod";
     if ([hardware hasPrefix:@"iPad"])               return @"iPad";
