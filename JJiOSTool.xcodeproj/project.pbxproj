@@ -12,7 +12,6 @@
 		282886621C9B920B004EC1B9 /* CSSearchableIndex+JJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 282886321C9B920B004EC1B9 /* CSSearchableIndex+JJ.m */; };
 		282886631C9B920B004EC1B9 /* NSArray+JJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 282886351C9B920B004EC1B9 /* NSArray+JJ.m */; };
 		282886641C9B920B004EC1B9 /* NSData+JJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 282886371C9B920B004EC1B9 /* NSData+JJ.m */; };
-		282886651C9B920B004EC1B9 /* NSData+JJ_Zip.m in Sources */ = {isa = PBXBuildFile; fileRef = 282886391C9B920B004EC1B9 /* NSData+JJ_Zip.m */; };
 		282886661C9B920B004EC1B9 /* NSDate+JJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 2828863B1C9B920B004EC1B9 /* NSDate+JJ.m */; };
 		282886671C9B920B004EC1B9 /* NSDictionary+JJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 2828863D1C9B920B004EC1B9 /* NSDictionary+JJ.m */; };
 		282886681C9B920B004EC1B9 /* NSFileManager+JJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 2828863F1C9B920B004EC1B9 /* NSFileManager+JJ.m */; };
@@ -39,6 +38,7 @@
 		2828868F1C9B9541004EC1B9 /* JJBootupChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2828868E1C9B9541004EC1B9 /* JJBootupChecker.m */; };
 		282886961C9B9560004EC1B9 /* JJSignalCrashTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 282886931C9B9560004EC1B9 /* JJSignalCrashTracking.m */; };
 		282886971C9B9560004EC1B9 /* JJUncaughtExceptionTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 282886951C9B9560004EC1B9 /* JJUncaughtExceptionTracking.m */; };
+		282886A01C9BA776004EC1B9 /* NSData+JJ_Zip.m in Sources */ = {isa = PBXBuildFile; fileRef = 282886391C9B920B004EC1B9 /* NSData+JJ_Zip.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -387,8 +387,8 @@
 				2828867D1C9B93B4004EC1B9 /* JJLog.m in Sources */,
 				282886621C9B920B004EC1B9 /* CSSearchableIndex+JJ.m in Sources */,
 				282886631C9B920B004EC1B9 /* NSArray+JJ.m in Sources */,
+				282886A01C9BA776004EC1B9 /* NSData+JJ_Zip.m in Sources */,
 				282886821C9B93E3004EC1B9 /* JJWeakDictionary.m in Sources */,
-				282886651C9B920B004EC1B9 /* NSData+JJ_Zip.m in Sources */,
 				282886611C9B920B004EC1B9 /* CABasicAnimation+JJ.m in Sources */,
 				282886761C9B920B004EC1B9 /* UIImageView+JJ.m in Sources */,
 				2828868B1C9B94F8004EC1B9 /* JJImportContactsManager.m in Sources */,
