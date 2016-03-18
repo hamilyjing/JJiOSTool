@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0710"
+   LastUpgradeVersion = "0720"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "28FD46881BE6F285007C536B"
-               BuildableName = "JJiOSTool.app"
+               BlueprintIdentifier = "2828861F1C9A7B49004EC1B9"
+               BuildableName = "libJJiOSTool.a"
                BlueprintName = "JJiOSTool"
                ReferencedContainer = "container:JJiOSTool.xcodeproj">
             </BuildableReference>
@@ -28,36 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "28FD469C1BE6F285007C536B"
-               BuildableName = "JJiOSToolTests.xctest"
-               BlueprintName = "JJiOSToolTests"
-               ReferencedContainer = "container:JJiOSTool.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "28FD46A71BE6F285007C536B"
-               BuildableName = "JJiOSToolUITests.xctest"
-               BlueprintName = "JJiOSToolUITests"
-               ReferencedContainer = "container:JJiOSTool.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "28FD46881BE6F285007C536B"
-            BuildableName = "JJiOSTool.app"
-            BlueprintName = "JJiOSTool"
-            ReferencedContainer = "container:JJiOSTool.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -71,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "28FD46881BE6F285007C536B"
-            BuildableName = "JJiOSTool.app"
+            BlueprintIdentifier = "2828861F1C9A7B49004EC1B9"
+            BuildableName = "libJJiOSTool.a"
             BlueprintName = "JJiOSTool"
             ReferencedContainer = "container:JJiOSTool.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "28FD46881BE6F285007C536B"
-            BuildableName = "JJiOSTool.app"
+            BlueprintIdentifier = "2828861F1C9A7B49004EC1B9"
+            BuildableName = "libJJiOSTool.a"
             BlueprintName = "JJiOSTool"
             ReferencedContainer = "container:JJiOSTool.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
