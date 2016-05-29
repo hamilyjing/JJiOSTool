@@ -10,7 +10,6 @@
 
 #import "NSObject+JJTableViewCellMapKey.h"
 #import "UIView+JJ.h"
-#import "NSArray+YZT.h"
 #import "UITableView+JJTableViewSection.h"
 
 @interface JJTableViewDataSource ()
@@ -413,7 +412,7 @@
         return self.titleForHeaderInSection(section);
     }
     
-    NSString *sectionClassName = [tableView.jjSectionObjectArray yzt_objectWithIndex:section];
+    NSString *sectionClassName = tableView.jjSectionObjectArray[section];
     if ([NSClassFromString(sectionClassName) respondsToSelector:@selector(titleForHeaderInSection:section:viewController:)])
     {
         NSString *headerTitle = [NSClassFromString(sectionClassName) titleForHeaderInSection:tableView section:section viewController:self.viewController];
@@ -430,7 +429,7 @@
         return self.titleForFooterInSection(section);
     }
     
-    NSString *sectionClassName = [tableView.jjSectionObjectArray yzt_objectWithIndex:section];
+    NSString *sectionClassName = tableView.jjSectionObjectArray[section];
     if ([NSClassFromString(sectionClassName) respondsToSelector:@selector(titleForFooterInSection:section:viewController:)])
     {
         NSString *footerTitle = [NSClassFromString(sectionClassName) titleForFooterInSection:tableView section:section viewController:self.viewController];
@@ -547,6 +546,21 @@
     return cellName;
 }
 
+- (UIViewController *)__viewController
+{
+    for (UIView *next = [self.tableView superview]; next; next = next.superview)
+    {
+        UIResponder *nextResponder = [next nextResponder];
+        if ([nextResponder isKindOfClass:[UIViewController class]])
+        {
+            return (UIViewController*)nextResponder;
+        }
+    }
+    return nil;
+}
+
+#pragma mark - getter and setter
+
 - (UIViewController *)viewController
 {
     if (_viewController)
@@ -554,7 +568,7 @@
         return _viewController;
     }
     
-    _viewController = self.tableView.yzt_viewController;
+    _viewController = [self __viewController];
     return _viewController;
 }
 

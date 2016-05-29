@@ -39,6 +39,15 @@
 		282886961C9B9560004EC1B9 /* JJSignalCrashTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 282886931C9B9560004EC1B9 /* JJSignalCrashTracking.m */; };
 		282886971C9B9560004EC1B9 /* JJUncaughtExceptionTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 282886951C9B9560004EC1B9 /* JJUncaughtExceptionTracking.m */; };
 		282886A01C9BA776004EC1B9 /* NSData+JJ_Zip.m in Sources */ = {isa = PBXBuildFile; fileRef = 282886391C9B920B004EC1B9 /* NSData+JJ_Zip.m */; };
+		7CA5C2781CFB28F7008C0F09 /* UITableViewCell+JJTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA5C2621CFB28F7008C0F09 /* UITableViewCell+JJTableViewDataSource.m */; };
+		7CA5C2791CFB28F7008C0F09 /* JJTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA5C2651CFB28F7008C0F09 /* JJTableViewDataSource.m */; };
+		7CA5C27A1CFB28F7008C0F09 /* NSObject+JJTableViewCellMapKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA5C2671CFB28F7008C0F09 /* NSObject+JJTableViewCellMapKey.m */; };
+		7CA5C27B1CFB28F7008C0F09 /* UITableView+JJDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA5C2691CFB28F7008C0F09 /* UITableView+JJDataSource.m */; };
+		7CA5C27C1CFB28F7008C0F09 /* JJTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA5C26C1CFB28F7008C0F09 /* JJTableViewDelegate.m */; };
+		7CA5C27D1CFB28F7008C0F09 /* UITableView+JJTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA5C26E1CFB28F7008C0F09 /* UITableView+JJTableViewDelegate.m */; };
+		7CA5C27E1CFB28F7008C0F09 /* JJTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA5C2711CFB28F7008C0F09 /* JJTableViewSection.m */; };
+		7CA5C27F1CFB28F7008C0F09 /* UITableView+JJTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA5C2741CFB28F7008C0F09 /* UITableView+JJTableViewSection.m */; };
+		7CA5C2801CFB28F7008C0F09 /* JJTableViewWithNoContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA5C2771CFB28F7008C0F09 /* JJTableViewWithNoContentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -120,6 +129,26 @@
 		282886931C9B9560004EC1B9 /* JJSignalCrashTracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJSignalCrashTracking.m; sourceTree = "<group>"; };
 		282886941C9B9560004EC1B9 /* JJUncaughtExceptionTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJUncaughtExceptionTracking.h; sourceTree = "<group>"; };
 		282886951C9B9560004EC1B9 /* JJUncaughtExceptionTracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJUncaughtExceptionTracking.m; sourceTree = "<group>"; };
+		7CA5C2601CFB28F7008C0F09 /* JJTableViewCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTableViewCellProtocol.h; sourceTree = "<group>"; };
+		7CA5C2611CFB28F7008C0F09 /* UITableViewCell+JJTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+JJTableViewDataSource.h"; sourceTree = "<group>"; };
+		7CA5C2621CFB28F7008C0F09 /* UITableViewCell+JJTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+JJTableViewDataSource.m"; sourceTree = "<group>"; };
+		7CA5C2641CFB28F7008C0F09 /* JJTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTableViewDataSource.h; sourceTree = "<group>"; };
+		7CA5C2651CFB28F7008C0F09 /* JJTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTableViewDataSource.m; sourceTree = "<group>"; };
+		7CA5C2661CFB28F7008C0F09 /* NSObject+JJTableViewCellMapKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JJTableViewCellMapKey.h"; sourceTree = "<group>"; };
+		7CA5C2671CFB28F7008C0F09 /* NSObject+JJTableViewCellMapKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JJTableViewCellMapKey.m"; sourceTree = "<group>"; };
+		7CA5C2681CFB28F7008C0F09 /* UITableView+JJDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+JJDataSource.h"; sourceTree = "<group>"; };
+		7CA5C2691CFB28F7008C0F09 /* UITableView+JJDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+JJDataSource.m"; sourceTree = "<group>"; };
+		7CA5C26B1CFB28F7008C0F09 /* JJTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTableViewDelegate.h; sourceTree = "<group>"; };
+		7CA5C26C1CFB28F7008C0F09 /* JJTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTableViewDelegate.m; sourceTree = "<group>"; };
+		7CA5C26D1CFB28F7008C0F09 /* UITableView+JJTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+JJTableViewDelegate.h"; sourceTree = "<group>"; };
+		7CA5C26E1CFB28F7008C0F09 /* UITableView+JJTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+JJTableViewDelegate.m"; sourceTree = "<group>"; };
+		7CA5C2701CFB28F7008C0F09 /* JJTableViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTableViewSection.h; sourceTree = "<group>"; };
+		7CA5C2711CFB28F7008C0F09 /* JJTableViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTableViewSection.m; sourceTree = "<group>"; };
+		7CA5C2721CFB28F7008C0F09 /* JJTableViewSectionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTableViewSectionProtocol.h; sourceTree = "<group>"; };
+		7CA5C2731CFB28F7008C0F09 /* UITableView+JJTableViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+JJTableViewSection.h"; sourceTree = "<group>"; };
+		7CA5C2741CFB28F7008C0F09 /* UITableView+JJTableViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+JJTableViewSection.m"; sourceTree = "<group>"; };
+		7CA5C2761CFB28F7008C0F09 /* JJTableViewWithNoContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTableViewWithNoContentView.h; sourceTree = "<group>"; };
+		7CA5C2771CFB28F7008C0F09 /* JJTableViewWithNoContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTableViewWithNoContentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +181,7 @@
 		282886221C9A7B49004EC1B9 /* JJiOSTool */ = {
 			isa = PBXGroup;
 			children = (
+				7CA5C25C1CFB28F7008C0F09 /* UI */,
 				2828868C1C9B9541004EC1B9 /* BootupChecker */,
 				282886871C9B94F8004EC1B9 /* ContactList */,
 				282886901C9B9560004EC1B9 /* Crash */,
@@ -309,6 +339,89 @@
 			path = JJCrashTracking;
 			sourceTree = "<group>";
 		};
+		7CA5C25C1CFB28F7008C0F09 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7CA5C25D1CFB28F7008C0F09 /* TableView */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7CA5C25D1CFB28F7008C0F09 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				7CA5C25E1CFB28F7008C0F09 /* TableViewSeparateDataSourceAndDelegate */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		7CA5C25E1CFB28F7008C0F09 /* TableViewSeparateDataSourceAndDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7CA5C25F1CFB28F7008C0F09 /* Cell */,
+				7CA5C2631CFB28F7008C0F09 /* DataSource */,
+				7CA5C26A1CFB28F7008C0F09 /* Delegate */,
+				7CA5C26F1CFB28F7008C0F09 /* Section */,
+				7CA5C2751CFB28F7008C0F09 /* TableView */,
+			);
+			path = TableViewSeparateDataSourceAndDelegate;
+			sourceTree = "<group>";
+		};
+		7CA5C25F1CFB28F7008C0F09 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7CA5C2601CFB28F7008C0F09 /* JJTableViewCellProtocol.h */,
+				7CA5C2611CFB28F7008C0F09 /* UITableViewCell+JJTableViewDataSource.h */,
+				7CA5C2621CFB28F7008C0F09 /* UITableViewCell+JJTableViewDataSource.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7CA5C2631CFB28F7008C0F09 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				7CA5C2641CFB28F7008C0F09 /* JJTableViewDataSource.h */,
+				7CA5C2651CFB28F7008C0F09 /* JJTableViewDataSource.m */,
+				7CA5C2661CFB28F7008C0F09 /* NSObject+JJTableViewCellMapKey.h */,
+				7CA5C2671CFB28F7008C0F09 /* NSObject+JJTableViewCellMapKey.m */,
+				7CA5C2681CFB28F7008C0F09 /* UITableView+JJDataSource.h */,
+				7CA5C2691CFB28F7008C0F09 /* UITableView+JJDataSource.m */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		7CA5C26A1CFB28F7008C0F09 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				7CA5C26B1CFB28F7008C0F09 /* JJTableViewDelegate.h */,
+				7CA5C26C1CFB28F7008C0F09 /* JJTableViewDelegate.m */,
+				7CA5C26D1CFB28F7008C0F09 /* UITableView+JJTableViewDelegate.h */,
+				7CA5C26E1CFB28F7008C0F09 /* UITableView+JJTableViewDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		7CA5C26F1CFB28F7008C0F09 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				7CA5C2701CFB28F7008C0F09 /* JJTableViewSection.h */,
+				7CA5C2711CFB28F7008C0F09 /* JJTableViewSection.m */,
+				7CA5C2721CFB28F7008C0F09 /* JJTableViewSectionProtocol.h */,
+				7CA5C2731CFB28F7008C0F09 /* UITableView+JJTableViewSection.h */,
+				7CA5C2741CFB28F7008C0F09 /* UITableView+JJTableViewSection.m */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		7CA5C2751CFB28F7008C0F09 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				7CA5C2761CFB28F7008C0F09 /* JJTableViewWithNoContentView.h */,
+				7CA5C2771CFB28F7008C0F09 /* JJTableViewWithNoContentView.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -371,29 +484,38 @@
 				282886661C9B920B004EC1B9 /* NSDate+JJ.m in Sources */,
 				2828866C1C9B920B004EC1B9 /* NSObject+JJ.m in Sources */,
 				282886721C9B920B004EC1B9 /* UIColor+JJ.m in Sources */,
+				7CA5C27F1CFB28F7008C0F09 /* UITableView+JJTableViewSection.m in Sources */,
 				282886691C9B920B004EC1B9 /* NSIndexPath+JJ.m in Sources */,
+				7CA5C2801CFB28F7008C0F09 /* JJTableViewWithNoContentView.m in Sources */,
+				7CA5C27A1CFB28F7008C0F09 /* NSObject+JJTableViewCellMapKey.m in Sources */,
 				2828866B1C9B920B004EC1B9 /* NSMutableDictionary+JJ.m in Sources */,
 				282886861C9B94B7004EC1B9 /* JJSpotlightManager.m in Sources */,
 				282886701C9B920B004EC1B9 /* UIAlertController+JJ.m in Sources */,
 				282886961C9B9560004EC1B9 /* JJSignalCrashTracking.m in Sources */,
+				7CA5C27B1CFB28F7008C0F09 /* UITableView+JJDataSource.m in Sources */,
 				282886781C9B920B004EC1B9 /* UIView+JJ.m in Sources */,
 				282886731C9B920B004EC1B9 /* UIDevice+JJ.m in Sources */,
 				282886971C9B9560004EC1B9 /* JJUncaughtExceptionTracking.m in Sources */,
 				282886681C9B920B004EC1B9 /* NSFileManager+JJ.m in Sources */,
 				282886771C9B920B004EC1B9 /* UIScrollView+JJ.m in Sources */,
+				7CA5C27D1CFB28F7008C0F09 /* UITableView+JJTableViewDelegate.m in Sources */,
 				282886671C9B920B004EC1B9 /* NSDictionary+JJ.m in Sources */,
 				282886641C9B920B004EC1B9 /* NSData+JJ.m in Sources */,
 				2828866F1C9B920B004EC1B9 /* NSUserActivity+JJ.m in Sources */,
+				7CA5C27E1CFB28F7008C0F09 /* JJTableViewSection.m in Sources */,
 				2828867D1C9B93B4004EC1B9 /* JJLog.m in Sources */,
 				282886621C9B920B004EC1B9 /* CSSearchableIndex+JJ.m in Sources */,
 				282886631C9B920B004EC1B9 /* NSArray+JJ.m in Sources */,
+				7CA5C2781CFB28F7008C0F09 /* UITableViewCell+JJTableViewDataSource.m in Sources */,
 				282886A01C9BA776004EC1B9 /* NSData+JJ_Zip.m in Sources */,
+				7CA5C2791CFB28F7008C0F09 /* JJTableViewDataSource.m in Sources */,
 				282886821C9B93E3004EC1B9 /* JJWeakDictionary.m in Sources */,
 				282886611C9B920B004EC1B9 /* CABasicAnimation+JJ.m in Sources */,
 				282886761C9B920B004EC1B9 /* UIImageView+JJ.m in Sources */,
 				2828868B1C9B94F8004EC1B9 /* JJImportContactsManager.m in Sources */,
 				282886711C9B920B004EC1B9 /* UIApplication+JJ.m in Sources */,
 				2828868F1C9B9541004EC1B9 /* JJBootupChecker.m in Sources */,
+				7CA5C27C1CFB28F7008C0F09 /* JJTableViewDelegate.m in Sources */,
 				282886751C9B920B004EC1B9 /* UIImage+JJ.m in Sources */,
 				282886741C9B920B004EC1B9 /* UIGestureRecognizer+JJ.m in Sources */,
 				2828866A1C9B920B004EC1B9 /* NSMutableArray+JJ.m in Sources */,
