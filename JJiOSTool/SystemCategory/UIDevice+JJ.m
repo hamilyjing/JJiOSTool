@@ -136,6 +136,9 @@
     if ([hardware isEqualToString:@"iPhone8,2"])    return IPHONE_6S_PLUS;
     if ([hardware isEqualToString:@"iPhone8,1"])    return IPHONE_6S;
     
+    if ([hardware isEqualToString:@"iPhone9,2"])    return IPHONE_7_PLUS;
+    if ([hardware isEqualToString:@"iPhone9,1"])    return IPHONE_7;
+    
     if ([hardware isEqualToString:@"iPhone8,4"])    return IPHONE_SE;
     
     if ([hardware isEqualToString:@"iPhone7,1"])    return IPHONE_6_PLUS;
@@ -201,6 +204,8 @@
         case IPHONE_6S_PLUS:                    return 8.2f;
         case IPHONE_6S:                         return 8.1f;
         case IPHONE_SE:                         return 8.4f;
+        case IPHONE_7_PLUS:                     return 9.2f;
+        case IPHONE_7:                          return 9.1f;
             
         case IPOD_TOUCH_1G:                     return 1.1f;
         case IPOD_TOUCH_2G:                     return 2.1f;
@@ -489,6 +494,8 @@
         case IPHONE_6S:
         case IPHONE_6S_PLUS:
         case IPHONE_SE:
+        case IPHONE_7:
+        case IPHONE_7_PLUS:
             return CGSizeMake(3264, 2448);
             break;
             
@@ -648,11 +655,11 @@
     
     // 弥补iPhone 6和iPhone 6 Plus中的“设置”->“显示与亮度”->"显示模式"对[UIScreen mainScreen].bounds.size的影响
     JJHardware hardware = [UIDevice jj_hardware];
-    if (IPHONE_6 == hardware || IPHONE_6S == hardware)
+    if (IPHONE_6 == hardware || IPHONE_6S == hardware || IPHONE_7 == hardware)
     {
         screenSize= CGSizeMake(375, 667);
     }
-    else if (IPHONE_6_PLUS == hardware || IPHONE_6S_PLUS == hardware)
+    else if (IPHONE_6_PLUS == hardware || IPHONE_6S_PLUS == hardware || IPHONE_7_PLUS == hardware)
     {
         screenSize= CGSizeMake(414, 736);
     }

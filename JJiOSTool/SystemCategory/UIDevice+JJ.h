@@ -29,6 +29,8 @@ typedef NS_ENUM(NSUInteger, JJHardware)
     IPHONE_6S_PLUS,
     IPHONE_6S,
     IPHONE_SE,
+    IPHONE_7_PLUS,
+    IPHONE_7,
     
     IPOD_TOUCH_1G,
     IPOD_TOUCH_2G,
