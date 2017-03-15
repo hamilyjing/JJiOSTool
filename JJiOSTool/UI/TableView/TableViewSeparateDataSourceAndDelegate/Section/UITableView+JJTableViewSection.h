@@ -12,6 +12,7 @@
 
 @interface UITableView (JJTableViewSection)
 
-@property (nonatomic, strong) NSArray<NSString *> *jjSectionObjectArray;
+@property (nonatomic, strong) NSArray<NSString *> *jjSectionClassNameArray;
+@property (nonatomic, strong) NSArray<id> *jjSectionDataArray;
 
 @end

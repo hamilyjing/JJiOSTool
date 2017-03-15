@@ -12,16 +12,29 @@
 
 @implementation UITableView (JJTableViewSection)
 
-- (NSArray<NSString *> *)jjSectionObjectArray
+- (NSArray<NSString *> *)jjSectionClassNameArray
 {
-    return (NSArray<NSString *> *)objc_getAssociatedObject(self, @selector(jjSectionObjectArray));
+    return (NSArray<NSString *> *)objc_getAssociatedObject(self, @selector(jjSectionClassNameArray));
 }
 
-- (void)setJjSectionObjectArray:(NSArray<NSString *> *)jjSectionObjectArray_
+- (void)setJjSectionClassNameArray:(NSArray<NSString *> *)jjSectionClassNameArray_
 {
-    if (self.jjSectionObjectArray != jjSectionObjectArray_)
+    if (self.jjSectionClassNameArray != jjSectionClassNameArray_)
     {
-        objc_setAssociatedObject(self, @selector(jjSectionObjectArray), jjSectionObjectArray_, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+        objc_setAssociatedObject(self, @selector(jjSectionClassNameArray), jjSectionClassNameArray_, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    }
+}
+
+- (NSArray<id> *)jjSectionDataArray
+{
+    return (NSArray<id> *)objc_getAssociatedObject(self, @selector(jjSectionDataArray));
+}
+
+- (void)setJjSectionDataArray:(NSArray<id> *)jjSectionDataArray_
+{
+    if (self.jjSectionDataArray != jjSectionDataArray_)
+    {
+        objc_setAssociatedObject(self, @selector(jjSectionDataArray), jjSectionDataArray_, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     }
 }
 

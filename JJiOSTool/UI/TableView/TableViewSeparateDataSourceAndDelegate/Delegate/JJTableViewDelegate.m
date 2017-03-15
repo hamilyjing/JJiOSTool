@@ -68,7 +68,7 @@
         return;
     }
     
-    NSString *sectionClassName = [self __objectFromArray:tableView.jjSectionObjectArray index:section];
+    NSString *sectionClassName = [self __objectFromArray:tableView.jjSectionClassNameArray index:section];
     if ([NSClassFromString(sectionClassName) respondsToSelector:@selector(willDisplayHeaderView:headerView:section:viewController:)])
     {
         [NSClassFromString(sectionClassName) willDisplayHeaderView:tableView headerView:view section:section viewController:self.viewController];
@@ -83,7 +83,7 @@
         return;
     }
     
-    NSString *sectionClassName = [self __objectFromArray:tableView.jjSectionObjectArray index:section];
+    NSString *sectionClassName = [self __objectFromArray:tableView.jjSectionClassNameArray index:section];
     if ([NSClassFromString(sectionClassName) respondsToSelector:@selector(willDisplayFooterView:footerView:section:viewController:)])
     {
         [NSClassFromString(sectionClassName) willDisplayFooterView:tableView footerView:view section:section viewController:self.viewController];
@@ -109,7 +109,7 @@
         return;
     }
     
-    NSString *sectionClassName = [self __objectFromArray:tableView.jjSectionObjectArray index:section];
+    NSString *sectionClassName = [self __objectFromArray:tableView.jjSectionClassNameArray index:section];
     if ([NSClassFromString(sectionClassName) respondsToSelector:@selector(didEndDisplayingHeaderView:headerView:section:viewController:)])
     {
         [NSClassFromString(sectionClassName) didEndDisplayingHeaderView:tableView headerView:view section:section viewController:self.viewController];
@@ -124,7 +124,7 @@
         return;
     }
     
-    NSString *sectionClassName = [self __objectFromArray:tableView.jjSectionObjectArray index:section];
+    NSString *sectionClassName = [self __objectFromArray:tableView.jjSectionClassNameArray index:section];
     if ([NSClassFromString(sectionClassName) respondsToSelector:@selector(didEndDisplayingFooterView:footerView:section:viewController:)])
     {
         [NSClassFromString(sectionClassName) didEndDisplayingFooterView:tableView footerView:view section:section viewController:self.viewController];
@@ -154,7 +154,7 @@
         return height;
     }
     
-    NSString *sectionClassName = [self __objectFromArray:tableView.jjSectionObjectArray index:section];
+    NSString *sectionClassName = [self __objectFromArray:tableView.jjSectionClassNameArray index:section];
     if ([NSClassFromString(sectionClassName) respondsToSelector:@selector(heightForHeader:section:viewController:)])
     {
         CGFloat headerHeight = [NSClassFromString(sectionClassName) heightForHeader:tableView section:section viewController:self.viewController];
@@ -172,7 +172,7 @@
         return height;
     }
     
-    NSString *sectionClassName = [self __objectFromArray:tableView.jjSectionObjectArray index:section];
+    NSString *sectionClassName = [self __objectFromArray:tableView.jjSectionClassNameArray index:section];
     if ([NSClassFromString(sectionClassName) respondsToSelector:@selector(heightForFooter:section:viewController:)])
     {
         CGFloat footerHeight = [NSClassFromString(sectionClassName) heightForFooter:tableView section:section viewController:self.viewController];
@@ -229,7 +229,7 @@
         return view;
     }
     
-    NSString *sectionClassName = [self __objectFromArray:tableView.jjSectionObjectArray index:section];
+    NSString *sectionClassName = [self __objectFromArray:tableView.jjSectionClassNameArray index:section];
     if ([NSClassFromString(sectionClassName) respondsToSelector:@selector(viewForHeader:section:viewController:)])
     {
         UIView *view = [NSClassFromString(sectionClassName) viewForHeader:tableView section:section viewController:self.viewController];
@@ -249,7 +249,7 @@
         return view;
     }
     
-    NSString *sectionClassName = [self __objectFromArray:tableView.jjSectionObjectArray index:section];
+    NSString *sectionClassName = [self __objectFromArray:tableView.jjSectionClassNameArray index:section];
     if ([NSClassFromString(sectionClassName) respondsToSelector:@selector(viewForFooter:section:viewController:)])
     {
         UIView *view = [NSClassFromString(sectionClassName) viewForFooter:tableView section:section viewController:self.viewController];

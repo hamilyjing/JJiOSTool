@@ -412,7 +412,7 @@
         return self.titleForHeaderInSection(section);
     }
     
-    NSString *sectionClassName = tableView.jjSectionObjectArray[section];
+    NSString *sectionClassName = tableView.jjSectionClassNameArray[section];
     if ([NSClassFromString(sectionClassName) respondsToSelector:@selector(titleForHeaderInSection:section:viewController:)])
     {
         NSString *headerTitle = [NSClassFromString(sectionClassName) titleForHeaderInSection:tableView section:section viewController:self.viewController];
@@ -429,7 +429,7 @@
         return self.titleForFooterInSection(section);
     }
     
-    NSString *sectionClassName = tableView.jjSectionObjectArray[section];
+    NSString *sectionClassName = tableView.jjSectionClassNameArray[section];
     if ([NSClassFromString(sectionClassName) respondsToSelector:@selector(titleForFooterInSection:section:viewController:)])
     {
         NSString *footerTitle = [NSClassFromString(sectionClassName) titleForFooterInSection:tableView section:section viewController:self.viewController];
