@@ -1,0 +1,44 @@
+//
+//  JJCUKComponentUpdateViewUserInfoDefine.h
+//  BaiduBrowser
+//
+//  Created by gongjian03 on 9/7/15.
+//  Copyright © 2015 Baidu Inc. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+extern NSString *JJChangeSkinNofiticationUserInfoBackgroundTypeKey;
+
+extern NSString *JJChangeSkinNofiticationUserInfoViewLightBackgroundColorKey;
+extern NSString *JJChangeSkinNofiticationUserInfoViewDarkBackgroundColorKey;
+
+extern NSString *JJChangeSkinNofiticationUserInfoViewLightBorderColorKey;
+extern NSString *JJChangeSkinNofiticationUserInfoViewDarkBorderColorKey;
+
+extern NSString *JJChangeSkinNofiticationUserInfoLabelLightTextColorKey;
+extern NSString *JJChangeSkinNofiticationUserInfoLabelDarkTextColorKey;
+
+extern NSString *JJChangeSkinNofiticationUserInfoLightImageKey;
+extern NSString *JJChangeSkinNofiticationUserInfoDarkImageKey;
+
+extern NSString *JJChangeSkinNofiticationUserInfoLightAnimationImagesKey;
+extern NSString *JJChangeSkinNofiticationUserInfoDarkAnimationImagesKey;
+
+extern NSString *JJChangeSkinNofiticationUserInfoButtonLightNormalImageKey;
+extern NSString *JJChangeSkinNofiticationUserInfoButtonLightHighlightedImageKey;
+extern NSString *JJChangeSkinNofiticationUserInfoButtonLightDisableImageKey;
+
+extern NSString *JJChangeSkinNofiticationUserInfoButtonLightNormalTitleColorKey;
+extern NSString *JJChangeSkinNofiticationUserInfoButtonLightHighlightedTitleColorKey;
+extern NSString *JJChangeSkinNofiticationUserInfoButtonLightDisableTitleColorKey;
+
+extern NSString *JJChangeSkinNofiticationUserInfoButtonDarkNormalImageKey;
+extern NSString *JJChangeSkinNofiticationUserInfoButtonDarkHighlightedImageKey;
+extern NSString *JJChangeSkinNofiticationUserInfoButtonDarkDisableImageKey;
+
+extern NSString *JJChangeSkinNofiticationUserInfoButtonDarkNormalTitleColorKey;
+extern NSString *JJChangeSkinNofiticationUserInfoButtonDarkHighlightedTitleColorKey;
+extern NSString *JJChangeSkinNofiticationUserInfoButtonDarkDisableTitleColorKey;
+
+extern NSString *JJChangeSkinNofiticationUserInfoBackgroundTypePureColor;

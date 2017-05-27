@@ -1,0 +1,47 @@
+{
+    "items": [
+              {
+              "index": "1",
+              "color": "#F8F8F8",
+              "statusBarStyle": "dark",
+              "title": "荼白",
+              "titleColor": "#9B9B9B"
+              },
+              {
+              "index": "2",
+              "color": "#e95759",
+              "default": "1",
+              "title": "妃红"
+              },
+              {
+              "index": "3",
+              "color": "#FF8892",
+              "title": "桃粉"
+              },
+              {
+              "index": "4",
+              "color": "#F36F35",
+              "title": "橘橙"
+              },
+              {
+              "index": "5",
+              "color": "#FAC139",
+              "title": "缃黄"
+              },
+              {
+              "index": "6",
+              "color": "#6BC55B",
+              "title": "柳绿"
+              },
+              {
+              "index": "7",
+              "color": "#26C8B7",
+              "title": "碧青"
+              },
+              {
+              "index": "8",
+              "color": "#2FA1DF",
+              "title": "海蓝"
+              }
+              ]
+}
