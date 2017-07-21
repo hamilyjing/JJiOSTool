@@ -1,0 +1,6 @@
+framework module YZTOpenSSL {
+  umbrella header "YZTOpenSSL.h"
+
+  export *
+  module * { export * }
+}
