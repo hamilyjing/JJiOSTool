@@ -181,7 +181,6 @@
 		282886221C9A7B49004EC1B9 /* JJiOSTool */ = {
 			isa = PBXGroup;
 			children = (
-				7CA5C25C1CFB28F7008C0F09 /* UI */,
 				2828868C1C9B9541004EC1B9 /* BootupChecker */,
 				282886871C9B94F8004EC1B9 /* ContactList */,
 				282886901C9B9560004EC1B9 /* Crash */,
@@ -189,6 +188,7 @@
 				282886791C9B93B4004EC1B9 /* Log */,
 				282886831C9B94B7004EC1B9 /* Spotlight */,
 				2828862C1C9B920B004EC1B9 /* SystemCategory */,
+				7CA5C25C1CFB28F7008C0F09 /* UI */,
 			);
 			path = JJiOSTool;
 			sourceTree = "<group>";
