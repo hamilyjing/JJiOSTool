@@ -144,6 +144,11 @@
     if ([hardware isEqualToString:@"iPhone7,1"])    return IPHONE_6_PLUS;
     if ([hardware isEqualToString:@"iPhone7,2"])    return IPHONE_6;
     
+    if ([hardware isEqualToString:@"iPhone10,2"])    return IPHONE_8_PLUS;
+    if ([hardware isEqualToString:@"iPhone10,1"])    return IPHONE_8;
+    
+    if ([hardware isEqualToString:@"iPhone10,3"])    return IPHONE_X;
+    
     if ([hardware isEqualToString:@"iPod1,1"])      return IPOD_TOUCH_1G;
     if ([hardware isEqualToString:@"iPod2,1"])      return IPOD_TOUCH_2G;
     if ([hardware isEqualToString:@"iPod3,1"])      return IPOD_TOUCH_3G;
@@ -206,6 +211,9 @@
         case IPHONE_SE:                         return 8.4f;
         case IPHONE_7_PLUS:                     return 9.2f;
         case IPHONE_7:                          return 9.1f;
+        case IPHONE_8_PLUS:                     return 10.2f;
+        case IPHONE_8:                          return 10.1f;
+        case IPHONE_X:                          return 10.3f;
             
         case IPOD_TOUCH_1G:                     return 1.1f;
         case IPOD_TOUCH_2G:                     return 2.1f;
@@ -491,12 +499,16 @@
         case IPHONE_5S_CDMA_GSM:
         case IPHONE_6:
         case IPHONE_6_PLUS:
+            return CGSizeMake(3264, 2448);
+            break;
         case IPHONE_6S:
         case IPHONE_6S_PLUS:
         case IPHONE_SE:
         case IPHONE_7:
         case IPHONE_7_PLUS:
-            return CGSizeMake(3264, 2448);
+        case IPHONE_8:
+        case IPHONE_8_PLUS:
+            return CGSizeMake(4000, 3000);
             break;
             
         case IPOD_TOUCH_4G:
@@ -668,11 +680,11 @@
     
     // 弥补iPhone 6和iPhone 6 Plus中的“设置”->“显示与亮度”->"显示模式"对[UIScreen mainScreen].bounds.size的影响
     JJHardware hardware = [UIDevice jj_hardware];
-    if (IPHONE_6 == hardware || IPHONE_6S == hardware || IPHONE_7 == hardware)
+    if (IPHONE_6 == hardware || IPHONE_6S == hardware || IPHONE_7 == hardware || IPHONE_8 == hardware)
     {
         screenSize= CGSizeMake(375, 667);
     }
-    else if (IPHONE_6_PLUS == hardware || IPHONE_6S_PLUS == hardware || IPHONE_7_PLUS == hardware)
+    else if (IPHONE_6_PLUS == hardware || IPHONE_6S_PLUS == hardware || IPHONE_7_PLUS == hardware || IPHONE_8_PLUS == hardware)
     {
         screenSize= CGSizeMake(414, 736);
     }
